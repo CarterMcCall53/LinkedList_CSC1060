@@ -12,7 +12,6 @@ using namespace std;
 class Node
 {
 private:
-	int number;
 	string name;
 	Node* nextNode;
 public:
