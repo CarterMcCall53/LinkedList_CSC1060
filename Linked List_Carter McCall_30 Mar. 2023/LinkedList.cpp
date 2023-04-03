@@ -1,10 +1,11 @@
-#include "LinkedList.h"
 /* LinkedList.cpp
 *  Carter McCall
 *  2 Apr. 2023
 *  Purpose:
 *		Linked List
 */
+
+#include "LinkedList.h"
 
 LinkedList::LinkedList() {
 	first = last = newNode = nullptr;

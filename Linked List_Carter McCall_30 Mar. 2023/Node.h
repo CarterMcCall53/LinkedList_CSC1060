@@ -7,7 +7,6 @@
 */
 
 #include <iostream>
-#include <string>
 using namespace std;
 
 class Node
@@ -18,9 +17,7 @@ private:
 	Node* nextNode;
 public:
 	Node(string);
-	int getNumber();
 	Node* getNextNode();
 	void setNextNode(Node*);
 	string getName();
 };
-
